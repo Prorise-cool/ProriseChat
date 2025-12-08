@@ -1,0 +1,44 @@
+{
+  "name": "ProriseChat",
+  "version": "1.0.0",
+  "description": "端到端加密节点",
+  "main": "worker/index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "wrangler dev",
+    "dev:build": "pnpm build && pnpm dev",
+    "deploy": "wrangler deploy",
+    "publish": "wrangler publish",
+    "build:docker": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuaiplus/ProriseChat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuaiplus/ProriseChat/issues"
+  },
+  "homepage": "https://github.com/shuaiplus/ProriseChat#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.7",
+    "terser": "^5.39.2",
+    "vite": "^6.3.5",
+    "wrangler": "^4.16.1"
+  },
+  "dependencies": {
+    "@dicebear/core": "^9.2.2",
+    "@dicebear/micah": "^9.2.2",
+    "aes-js": "^3.1.2",
+    "buffer": "^6.0.3",
+    "dompurify": "^3.2.6",
+    "elliptic": "^6.6.1",
+    "emoji-picker-element": "^1.26.3",
+    "fflate": "^0.8.2",
+    "js-chacha20": "^1.1.0",
+    "js-sha256": "^0.11.0"
+  }
+}

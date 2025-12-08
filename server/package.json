@@ -1,0 +1,13 @@
+{
+  "name": "ProriseChat-server",
+  "version": "1.0.0",
+  "description": "ProriseChat Server",
+  "main": "server.js",
+  "author": "Zoltan Hajdu",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.3.1",
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  }
+}
