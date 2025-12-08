@@ -111,11 +111,7 @@ pnpm run deploy
 
 如果在部署过程中终端询问是否创建项目或开启 Durable Objects，请一律输入 `y` 并回车。
 
-### Docker 部署
-```bash
-docker run -d --name ProriseChat -p 80:80 ghcr.io/shuaiplus/ProriseChat
-```
-请确保开启 HTTPS 反向代理，否则密钥交换将被浏览器拒绝。
+
 
 ### 自动同步 fork（长期维护）
 fork 仓库后启用 GitHub Actions，即可保持与上游同步并自动触发 Cloudflare 重新部署。
